@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Travel Agency Webiste</title>
+</head>
+<body>
+    <nav class="navigation u-margin-bottom">
+        <a href="#">
+            <picture class="header__logo">
+                <source srcset="./img/logo-small.png, ./img/logo-small.png"  media="(max-width: 37.5em)">
+                <img srcset="./img/logo-big.png, ./img/logo-big.png" alt="Full logo">
+            </picture>       
+        </a>
+        <div class="navigation__right">
+            <a href="#destinations" class="link">Destinations</a>
+            <a href="#" class="link">Packages</a>
+            <a href="#" class="link">Services</a>
+            <a href="#" class="link">About Us</a>
+            <a href="#" class="link">Contact</a>
+        </div>
+        <label for="menu" class="navigation__menu"><img src="./img/menu.png" alt="menuBtn"></label>
+        <input type="checkbox" id="menu">
+        <nav class="navigation__mobile">
+            <a href="#destinations" class="link">Destinations</a>
+            <a href="#" class="link">Packages</a>
+            <a href="#" class="link">Services</a>
+            <a href="#" class="link">About Us</a>
+            <a href="#" class="link">Contact</a>
+        </nav>
+    </nav>
+   
+    <header class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary u-margin-bottom">
+                Boundless 
+            </h1>
+            <a href="#" class="link btn btn--heading">Book Now</a>
+            <img src="./img/plane.png" alt="" class="header__plane">
+        </div>
+    </header>
+    <main>
+        <section id="destinations" class="section section__destinations u-margin-top-big">
+            <h2 class="heading-secondary u-margin-bottom-big">
+                Destinations
+            </h2>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card--front card--front-1">
+                            <h3 class="heading-tertiary">PARIS</h3>
+                            <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                        <div class="card--back card--back-1">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cum? Molestiae expedita nihil in excepturi hic consectetur ipsa nemo natus!</p>
+                            <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card--front card--front-2">
+                            <h3 class="heading-tertiary">BUDAPEST</h3>
+                            <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                        <div class="card--back card--back-2">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cum? Molestiae expedita nihil in excepturi hic consectetur ipsa nemo natus!</p>
+                            <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card--front card--front-3">
+                            <h3 class="heading-tertiary">BELGRADE</h3>
+                             <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                        <div class="card--back card--back-3">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, cum? Molestiae expedita nihil in excepturi hic consectetur ipsa nemo natus!</p>
+                            <a href="#" class="link btn btn--heading u-margin-top">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__navigation">
+            <picture class="footer__logo">
+                <source srcset="./img/logo-big.png, ./img/logo-big.png"  media="(max-width: 37.5em)">
+                <img srcset="./img/logo-bigger.png, ./img/logo-bigger.png" alt="Full logo">
+            </picture>   
+            <div class="footer__navigation__right">
+                <a href="#destinations" class="link">Destinations</a>
+                <a href="#" class="link">Packages</a>
+                <a href="#" class="link">Services</a>
+                <a href="#" class="link">About Us</a>
+                <a href="#" class="link">Contact</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023. Boundless</p>
+        </div>
+    </footer>
+</body>
+</html>

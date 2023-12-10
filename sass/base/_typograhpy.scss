@@ -1,0 +1,51 @@
+body{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+.link:link,
+.link:visited{
+    text-decoration: none;
+}
+
+.heading-primary{
+    font-size: 17rem;
+    letter-spacing: -.5rem;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    background-image: url(../../img/heading-primary-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    backface-visibility: hidden;
+
+    @include respond(tab-land){
+        font-size: 15rem;
+    }
+
+    @include respond(tab-port){
+        font-size: 12rem;
+    }
+
+    @include respond(phone){
+        font-size: 8.5rem;
+    }
+
+    @include respond(small-phone){
+        font-size: 7rem;
+    }
+}
+
+.heading-secondary{
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: $color-primary;
+}
+
+.heading-tertiary{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px $color-primary;
+}
